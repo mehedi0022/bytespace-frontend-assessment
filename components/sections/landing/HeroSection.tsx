@@ -125,13 +125,16 @@ const HeroSection = () => (
         priority
       />
     </div>
-    <Image
-      className="absolute left-[calc(50%+122px)] top-[531px] z-[3] rounded-2xl shadow-[0_18px_40px_rgba(0,0,0,.1)] max-[640px]:right-4 max-[640px]:left-auto max-[640px]:top-[610px] max-[640px]:scale-[.72] max-[640px]:origin-top-right"
-      src="/assets/hero/cards/learning-progress.png"
-      alt=""
-      width={232}
-      height={131}
-    />
+    <div
+      className="absolute left-[calc(50%+122px)] top-[531px] z-[3] h-[131px] w-[232px] rounded-2xl bg-white p-4 text-shuttle-950 shadow-[0_18px_40px_rgba(0,0,0,.1)] max-[640px]:right-4 max-[640px]:left-auto max-[640px]:top-[610px] max-[640px]:scale-[.72] max-[640px]:origin-top-right"
+      aria-label="Learning progress: 55 percent"
+    >
+      <span className="block text-xs leading-4">Learning Progress</span>
+      <strong className="mt-1 block text-[44px] font-semibold leading-none">55%</strong>
+      <span className="mt-3 block h-2 w-full rounded-full bg-shuttle-100">
+        <span className="block h-full w-[55%] rounded-full bg-brand-lime" />
+      </span>
+    </div>
     <div
       className="absolute left-[calc(50%-316px)] top-[519px] z-[3] flex h-[70px] w-[208px] flex-col gap-2 rounded-2xl bg-white/[.96] p-4 text-base leading-[1.2] text-shuttle-950 shadow-[0_18px_40px_rgba(0,0,0,.1)] max-[640px]:left-4 max-[640px]:top-[590px] max-[640px]:origin-top-left max-[640px]:scale-[.72]"
       aria-hidden="true"
