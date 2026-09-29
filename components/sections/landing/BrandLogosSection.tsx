@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 const BRAND_LOGOS = [
-  { src: "/assets/hero/logo/1.png", alt: "Logoipsum brand one" },
-  { src: "/assets/hero/logo/2.png", alt: "Logoipsum brand two" },
-  { src: "/assets/hero/logo/3.png", alt: "Logoipsum brand three" },
-  { src: "/assets/hero/logo/4.png", alt: "Logoipsum brand four" },
-  { src: "/assets/hero/logo/5.png", alt: "Logoipsum brand five" },
+  { src: "/assets/hero/logo/1.png", alt: "brand one" },
+  { src: "/assets/hero/logo/2.png", alt: "brand two" },
+  { src: "/assets/hero/logo/3.png", alt: "brand three" },
+  { src: "/assets/hero/logo/4.png", alt: "brand four" },
+  { src: "/assets/hero/logo/5.png", alt: "brand five" },
 ] as const;
 
 const BrandLogosSection = () => (
